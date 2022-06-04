@@ -1,7 +1,7 @@
 number = int(input('Enter a number: '))
 
 a = []
-
+k = 0
 if number <= 0:
     print('Number is not natural')
 
