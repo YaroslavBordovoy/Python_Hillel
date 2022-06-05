@@ -12,7 +12,15 @@ print('Odd indexes: ', string[1::2])
 
 # Пятый символ в строке, если он есть (если строка не слишком короткая)
 
-print('Fifth character: ', string[5])
+if len(string) <= 4:
+    print('Fifth character: less than five characters in string!')
+else:
+    print('Fifth character: ', string[4])
+
+"""
+Пришлось задать условие, так как в pycharm`е выбивает ошибку
+если в строке меньше 5 символов
+"""
 
 # Все до десятого символа
 
