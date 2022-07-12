@@ -23,6 +23,7 @@ class Counter:
 start = int(input('Specify initial value: '))
 maximum = int(input('Specify end value: '))
 my_count = Counter(start=start, maximum=maximum)
+print(my_count)
 
 while True:
     user_request = input()
@@ -31,3 +32,4 @@ while True:
         print(my_count)
     else:
         print('You have reached the maximum value')
+        break
