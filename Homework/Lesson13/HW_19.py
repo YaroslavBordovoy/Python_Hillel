@@ -1,6 +1,6 @@
 # Анализ данных
 
-# 30-10-2016 / 04-09-2017 (309 days)  """
+# 30-10-2016 / 04-09-2017 (161 days)  """
 import csv
 
 with open('Bakery.csv', newline='') as File:
