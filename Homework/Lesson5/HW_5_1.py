@@ -26,4 +26,6 @@ for i, v in enumerate(list):
         # print('003', i, v)
         print('Left: ', list[i - 1])
         break
-    
+
+
+# git
